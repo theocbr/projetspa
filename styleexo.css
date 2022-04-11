@@ -69,6 +69,7 @@ li a:hover {
 .button:hover {
   background-color: #85827e;
   color: white;
+  transform: skew(7deg);
 }
 
 #deux {
@@ -184,10 +185,12 @@ h4 {
 }
 #butdonner:hover {
   background-color: #ada26f;
+  transform: scaleX(1.1);
 }
 
 #butadopter:hover {
   background-color: #ada26f;
+  transform: scaleX(1.1);
 }
 
 #quatre {
@@ -232,6 +235,7 @@ h4 {
 }
 #butdon:hover {
   background-color: #ada26f;
+  transform: scale(1.1);
 }
 
 /* ********************************************************************************************************************* */
@@ -260,6 +264,8 @@ h4 {
   text-decoration: none;
   display: inline-block;
   font-size: 35px;
+  box-shadow: 0 0 0.3rem 0.3rem #c98702;
+  box-sizing: border-box;
 
   border: 1px solid black;
   border-radius: 10px;
@@ -267,6 +273,9 @@ h4 {
 #butinfo:hover {
   background-color: #ada26f;
   color: #333;
+  box-shadow: 0 0 0.3rem 0.3rem #ada26f;
+  box-sizing: border-box;
+  transform: scale(1.1);
 }
 
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
