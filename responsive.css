@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+@media (max-width: 412px) {
+  .navbar {
+    display: block;
+  }
+  ul {
+    display: block;
+    float: none;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  ul.collapse {
+    display: none !important;
+  }
+  ul {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  ul > li {
+    float: none;
+  }
+  ul > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  ul {
+    float: none;
+    margin: 15px 0;
+  }
+  #search {
+    padding: 10px 40%;
+    float: none;
+  }
+}
