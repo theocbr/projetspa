@@ -328,8 +328,14 @@ h4 {
   display: block;
 }
 #h1lieu {
-  font-size: xx-large;
+  font-size: 100px;
   font-weight: bold;
+  text-align: center;
+  color: #c98702;
+}
+#iconpin {
+  font-size: 27px;
+  color: red;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -352,6 +358,7 @@ h4 {
 #h2form {
   text-align: left;
   color: #c98702;
+  font-size: 31px;
 }
 #butform {
   border-radius: 10%;
@@ -366,6 +373,7 @@ h4 {
 }
 #h2reseau {
   color: #c98702;
+  font-size: 31px;
 }
 #cinq {
   height: taille_fixe px;
@@ -388,17 +396,20 @@ h4 {
   float: right;
   color: #ada26f;
 }
+b {
+  font-size: 80px;
+}
 #iconfb {
   color: #3b5998;
-  font-size: 60px;
+  font-size: 100px;
 }
 #iconinst {
   color: #8a3ab9;
-  font-size: 60px;
+  font-size: 100px;
 }
 #icontw {
   color: #1da1f2;
-  font-size: 60px;
+  font-size: 100px;
 }
 #iconfb:hover {
   transform: scale(1.2);
@@ -575,6 +586,9 @@ html {
   #icontw {
     font-size: 35px;
   }
+  b {
+    font-size: 16px;
+  }
   #f {
     font-size: 15px;
   }
@@ -583,5 +597,11 @@ html {
   }
   #labelcontact {
     font-size: 17px;
+  }
+  #iconpin {
+    font-size: 0px;
+  }
+  #h1lieu {
+    font-size: 19px;
   }
 }
