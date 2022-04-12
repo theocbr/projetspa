@@ -380,6 +380,7 @@ h4 {
 }
 #f {
   font-size: 33px;
+  padding-left: 10px;
 }
 #reseaux {
   width: 50%;
@@ -560,7 +561,7 @@ html {
     font-size: 15px;
   }
   #h2form {
-    font-size: 17px;
+    font-size: 16px;
   }
   #h2reseau {
     font-size: 17px;
