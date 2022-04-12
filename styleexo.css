@@ -321,7 +321,7 @@ h4 {
   background-position: center;
   background-size: cover;
   width: 605;
-  height: 380px;
+  height: 280px;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -360,8 +360,8 @@ h4 {
   font-size: 100px;
   font-weight: bold;
   text-align: center;
-  color: #c98702;
-  opacity: 0.7;
+  color: #6c9171;
+  opacity: 0.9;
 }
 #iconpin {
   font-size: 27px;
