@@ -392,6 +392,16 @@ h4 {
   color: #1da1f2;
   font-size: 60px;
 }
+#iconfb:hover {
+  transform: scale(1.2);
+}
+#iconinst:hover {
+  transform: scale(1.2);
+}
+#icontw:hover {
+  transform: scale(1.2);
+}
+
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 .footercontact {

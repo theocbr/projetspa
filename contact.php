@@ -1,0 +1,79 @@
+<?php
+
+$file = fopen("emaillist.txt","a+");
+fwrite($file,$email);
+fclose($file); 
+print_r(error_get_last());
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <LINK rel="stylesheet" type="text/css" href="styleexo.css">
+    <title>Contact</title>
+    <nav class="navbar">
+        <ul>
+            <li><a href="\exo.html" >Acceuil</a></li>
+            <li> <a href="/Informations.html">Informations</a></li>
+            <li> <a href="/page2exo.html">Nous trouver </a></li>
+            <li> <a href="/contact.php">Contact</a></li>
+            <li id="search"><ion-icon id="iconsearch" name="search-outline"></ion-icon><input id="recherchebar"  type="text"name="recherche" placeholder="Recherche..."></li>
+         </ul>
+        </nav>
+        </head>
+        <body>
+          <br>
+          <br>
+          <div id="cinq">
+            <div id="formdiv">
+              <br>
+              <br>
+              <br>
+              <h2 id="h2form">Pour nous contacter veuillez remplir le formulaire ci-dessous :</h2>
+              <hr>
+              <br>
+              <br>
+              
+          <div id="form" action="contact.txt" methode="POST">
+          <form action="" method="post" id="formcontact">
+            <input type="text" src="" id="nom" placeholder="Votre nom"><br/>
+            <input type="text" src="" id="prenom" placeholder="Votre Prénom"><br/>
+            <input type="mail" src="" id="mail" placeholder="Votre Adresse Mail"><br/>
+            <textarea id="message" placeholder="Que voulez vous ?"></textarea><br/>
+            <br>
+            <button id="butform" type="submit">Envoyer</button>
+          </div>
+        </div>
+        <div id="reseaux">
+          <br>
+          <br>
+          <br>
+          <h2 id="h2reseau">Vous pouvez également nous suivres sur nos réseaux:</h2>
+          <hr>
+          <br>
+          <br>
+          <ion-icon id="iconfb" name="logo-facebook"></ion-icon><b>SPALilleCentre</b><br><br><br>
+          <ion-icon id="iconinst" name="logo-instagram"></ion-icon><b>SPA_LilleCentre</b><br><br><br>
+          <ion-icon id="icontw" name="logo-twitter"></ion-icon><b>@SPALilleCentre</b>
+        </div>
+        </div>
+          </form>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
+        <br>
+        <br>
+        <footer id="footercontact">
+          <div class="footercontact">
+              <br>
+              <br>
+              <p>Copyright © 2022 SPA Lille </p>
+              <br>
+              <br>
+          </div>
+      </footer> 
+     </body>
+      </html>
