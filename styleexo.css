@@ -315,6 +315,21 @@ h4 {
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 /* PAGE NOUS TROUVER ///////////////////////////////////////////////////////////////////////////////////////////////////     */
+#banchats {
+  background-image: url(https://s1.1zoom.me/b5050/93/Cats_White_background_Kittens_531475_3840x2400.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 605;
+  height: 380px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 58px;
+  text-align: center;
+  background-color: #000000;
+}
+
 #lieu {
   width: 100%;
   overflow: hidden; /* IMPORTANT  */
@@ -346,6 +361,7 @@ h4 {
   font-weight: bold;
   text-align: center;
   color: #c98702;
+  opacity: 0.7;
 }
 #iconpin {
   font-size: 27px;
