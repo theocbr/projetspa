@@ -55,7 +55,7 @@ li a:hover {
 }
 
 .button {
-  background-color: #333333;
+  background-color: #6c9171;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -67,7 +67,7 @@ li a:hover {
   border-radius: 10px;
 }
 .button:hover {
-  background-color: #85827e;
+  background-color: #ada26f;
   color: white;
   transform: skew(7deg);
 }
