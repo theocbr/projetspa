@@ -107,7 +107,26 @@ h4 {
 #icon {
   font-size: 65px;
   color: #6c9171;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
+#icon:hover {
+  transform: scale(1.2);
+  color: #ada26f;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 /*#bandenoir{
     background-color: #333;
     color: #333;
@@ -157,7 +176,7 @@ h4 {
 
 #butadopter {
   display: inline-block;
-  background-color: #c98702;
+  background-color: #6c9171;
   border-radius: 10px;
   border: 4px double #cccccc;
   color: white;
@@ -171,7 +190,7 @@ h4 {
 }
 #butdonner {
   display: inline-block;
-  background-color: #c98702;
+  background-color: #6c9171;
   border-radius: 10px;
   border: 4px double #cccccc;
   color: white;
@@ -226,7 +245,7 @@ h4 {
 }
 #butdon {
   border-radius: 10%;
-  background-color: #c98702;
+  background-color: #6c9171;
   color: white;
   border-color: #333;
   border-width: 1px;
