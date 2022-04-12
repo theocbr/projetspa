@@ -344,6 +344,11 @@ h4 {
   width: 450px;
   float: center;
 }
+#labelcontact {
+  color: white;
+  font-weight: bold;
+  font-size: 37px;
+}
 #h2form {
   text-align: left;
   color: #c98702;
@@ -574,5 +579,8 @@ html {
   }
   #formcontact {
     width: 280px;
+  }
+  #labelcontact {
+    font-size: 17px;
   }
 }
