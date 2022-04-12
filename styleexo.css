@@ -420,6 +420,12 @@ h4 {
 #f {
   font-size: 33px;
   padding-left: 10px;
+  color: grey;
+}
+#l {
+  font-size: 23px;
+  padding-left: 10px;
+  color: white;
 }
 #reseaux {
   width: 50%;
@@ -623,8 +629,12 @@ html {
   #f {
     font-size: 15px;
   }
+  #l {
+    font-size: 15px;
+  }
   #formcontact {
     width: 280px;
+    text-align: left;
   }
   #labelcontact {
     font-size: 17px;
@@ -634,5 +644,8 @@ html {
   }
   #h1lieu {
     font-size: 19px;
+  }
+  #accepter {
+    font-size: 13px;
   }
 }
