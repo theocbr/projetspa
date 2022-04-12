@@ -107,7 +107,7 @@ h4 {
 #icon {
   font-size: 65px;
   color: #6c9171;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-name: slidein;
 }
 #icon:hover {
