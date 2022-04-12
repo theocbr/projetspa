@@ -260,6 +260,21 @@ h4 {
 /* ********************************************************************************************************************* */
 
 /*  PAGE INFORMATIONS ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+#banchienchat {
+  background-image: url(https://www.lesmutuelles-animaux.fr/wp-content/uploads/2020/06/comparatif-mutuelle-animaux.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 605;
+  height: 280px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 58px;
+  text-align: center;
+  background-color: #000000;
+}
+
 #h2info {
   font-size: xx-large;
   font-weight: bold;
@@ -300,7 +315,6 @@ h4 {
 /* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 /* PAGE NOUS TROUVER ///////////////////////////////////////////////////////////////////////////////////////////////////     */
-
 #lieu {
   width: 100%;
   overflow: hidden; /* IMPORTANT  */
@@ -385,6 +399,7 @@ h4 {
   height: 100%;
   float: left;
   text-align: left;
+  opacity: 0.8;
 }
 #f {
   font-size: 33px;
@@ -442,7 +457,7 @@ b {
   text-align: center;
 }
 .footerinfo {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
